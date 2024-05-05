@@ -31,3 +31,4 @@ Sempre que houver enunciados, estarão juntamente com o código.
         - Arrays: lenght, push, forEach, splice, indexOf
     - Comentários
 - Aula 7 - O que é NodeJS - História, funcionamento, interpretador e características.
+- Aula 8 -  NodeJS na prática I - terminal e execução do código 
