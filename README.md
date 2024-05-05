@@ -39,3 +39,5 @@ Sempre que houver enunciados, estarão juntamente com o código.
     - V8 single thread
     - libuv(C++) multi thread
     - 1 ping = 88M instruções CPU
+Aula 11 - Callbacks, Promises e Async/Await
+    - Servem para organizar o código assíncrono
