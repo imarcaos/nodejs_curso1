@@ -39,12 +39,14 @@ Sempre que houver enunciados, estarão juntamente com o código.
     - V8 single thread
     - libuv(C++) multi thread
     - 1 ping = 88M instruções CPU
-Aula 11 - Callbacks, Promises e Async/Await
+- Aula 11 - Callbacks, Promises e Async/Await
     - Servem para organizar o código assíncrono
-Aula 12 - O que é ExpressJS
+- Aula 12 - O que é ExpressJS
     - Web framework
     - npm install -g express-generator (cria alguns templates para facilitar o design)
     - npx express-generator (NodeJS 8.2.0) contorna o erro: mkdirp 1.x
     - express -e aula12
     - cd aula12
     - npm install && npm start
+- Aula 13 - ExpressJS na prática I
+- Aula 14 - ExpressJS na prática II
