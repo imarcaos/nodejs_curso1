@@ -17,9 +17,16 @@ Sempre que houver enunciados, estarão juntamente com o código.
     - Criei um código JS para teste e rodei com o NodeJS
     - Nomes dos arquivos iniciais para projetos por conversão são: main.js ou index.js
 - Aula 4 - Revisão de JavaScript - Nivelamento
-    - Sintaxe:
-        - const, let, var
-        - logical, relational e arithmetic operators
-        - functions e anonymous/arrow functions
+    - const, let, var
+    - logical, relational e arithmetic operators
+    - functions e anonymous/arrow functions
 - Aula 5 - Revisão JavaScript II
     - operadores relacionais, função normal e objeto
+- Aula 6 - Revisão JavaScript III
+    - Estruturas de controle e repetição
+    - Number, String, Boolean, Array, Object e Function
+        - Strings: lenght, indexOf, toString, toUpperCase, ToLowerCase
+        - Strings: endsWith, startsWith, replace, trim, parseFloat, parseInt
+        - Strings: split, charAt, slice
+        - Arrays: lenght, push, forEach, splice, indexOf
+    - Comentários
