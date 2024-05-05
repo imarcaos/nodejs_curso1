@@ -14,4 +14,5 @@ Sempre que houver enunciados, estarão juntamente com o código.
     - Windows, Linux e MAC
 - Aula 3 - Node na prática
     - Nomes dos arquivos iniciais para projetos por conversão são: main.js ou index.js
-- 
+- Aula 4 - Módulos
+    - Modules, Export, Require
