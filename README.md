@@ -21,4 +21,5 @@ Sempre que houver enunciados, estarão juntamente com o código.
         - const, let, var
         - logical, relational e arithmetic operators
         - functions e anonymous/arrow functions
-- Aula 5 - Protocolo HTTP
+- Aula 5 - Revisão JavaScript II
+    - operadores relacionais, função normal e objeto
