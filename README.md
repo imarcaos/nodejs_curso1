@@ -30,3 +30,4 @@ Sempre que houver enunciados, estarão juntamente com o código.
         - Strings: split, charAt, slice
         - Arrays: lenght, push, forEach, splice, indexOf
     - Comentários
+- Aula 7 - O que é NodeJS - História, funcionamento, interpretador e características.
