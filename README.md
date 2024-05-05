@@ -31,4 +31,7 @@ Sempre que houver enunciados, estarão juntamente com o código.
         - Arrays: lenght, push, forEach, splice, indexOf
     - Comentários
 - Aula 7 - O que é NodeJS - História, funcionamento, interpretador e características.
-- Aula 8 -  NodeJS na prática I - terminal e execução do código 
+- Aula 8 -  NodeJS na prática I - terminal e execução do código
+- Aula 9 -  NodeJS na prática II - módulos, bibliotecas e classses
+    - require, module.exports, assíncrono(executa em background)
+    - Cada arquivo js dentro do projeto é um módulo
