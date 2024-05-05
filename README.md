@@ -35,3 +35,7 @@ Sempre que houver enunciados, estarão juntamente com o código.
 - Aula 9 -  NodeJS na prática II - módulos, bibliotecas e classses
     - require, module.exports, assíncrono(executa em background)
     - Cada arquivo js dentro do projeto é um módulo
+- Aula 10 - Event Loop de NodeJS
+    - V8 single thread
+    - libuv(C++) multi thread
+    - 1 ping = 88M instruções CPU
