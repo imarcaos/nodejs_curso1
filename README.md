@@ -50,3 +50,12 @@ Sempre que houver enunciados, estarão juntamente com o código.
     - npm install && npm start
 - Aula 13 - ExpressJS na prática I
 - Aula 14 - ExpressJS na prática II
+- Aula 15 - ExpressJS na prática III
+    - nova model, view, rota
+    - rota com parâmetro
+    - EJS Embebed JavaScript
+        - HTML + JS Server Side (Node.js)
+        - Renderiza HTML
+        - Server Tag <%= %>
+        - Model
+        - forEach
