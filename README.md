@@ -59,3 +59,17 @@ Sempre que houver enunciados, estarão juntamente com o código.
         - Server Tag <%= %>
         - Model
         - forEach
+- Aula 16 - MongoDB
+    - Free e open-source, 10gen(2009), C++, Multiplataforma, Orientado a Documentos (NoSQL)
+    - BSON, sem JOINS e FKs, documentos independentes, schemaless, JavaScript
+- Aula 17 - Quando usar o MongoDB
+    - Big Data
+    - Dados desestruturados ou com estrutura dinâmica
+    - JavaScript Full-Stack
+    - Cache
+- Aular 18 - Como rodar o servidor MongoDB
+    - Instalei a versão msi install do W11
+    - Configurei o caminho até a pasta bin no register do W11
+    - Saquei no site do MongoDB o MongoDB Shell e adicionei a pasta bin
+    - no terminal: mongod (executa o servidor), mongosh (roda o shell e conecta a db)
+- Aula 19 - CRUD MongoDB no Terminal
