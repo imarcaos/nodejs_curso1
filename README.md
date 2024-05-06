@@ -73,3 +73,9 @@ Sempre que houver enunciados, estarão juntamente com o código.
     - Saquei no site do MongoDB o MongoDB Shell e adicionei a pasta bin
     - no terminal: mongod (executa o servidor), mongosh (roda o shell e conecta a db)
 - Aula 19 - CRUD MongoDB no Terminal
+    - com o shell aberto:
+        - show databases (nome já indica)
+        - use dbname (tanto conecta, como cria)
+        - db.dbname.count() (nome já indica)
+        - db.dbname.find()
+        - db.dbname.insert({nome: "Mar", idade: 40, cidade: "Seixal"}) (funciona tanto com "" ou '')
