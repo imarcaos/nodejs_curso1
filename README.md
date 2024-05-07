@@ -93,4 +93,20 @@ Sempre que houver enunciados, estarão juntamente com o código.
         - db.dbname.replaceOne({nome: "Mar"},{nome:"Maria", idade:24}) (neste caso o campo cidade ficará vazio)
     - Apagar dados, deleteOne e deleteMany - é aconselhável sempre usarmos o campo id
         - db.dbname.deleteOne({_id: ObjectId('66394bd14692bb252346b799')})
+- Aula 21 - Consulta com filtros em MongoDB
+    - Fazer consulta com 2 filtros
+        - db.dbname.find({nome: "Marcos", idade: 40}).pretty()
+    - Consulta que contenha uma letra "a" no nome
+        - db.dbname.find({nome: {$regex: /a/}}) ({nome: {$regex: /a/}} é a mesma coisa que: {nome: /a/})
+    - Pesquisar sobre expressões regulares no MongoDB
+    - Operadores de comparação: $gte, $gt, $lt, $lte, $eq, $ne, $in, $all
+        - db.dbname.find({idade: {$lte: 45}}) (low than and equal)
+        - db.dbname.find({idade: {$in: [24,40,49]}}) (consulta valores dentro destes parâmetros)
+    - Consulta com all, é como o nome indica, tem de ter todos os elementos do parâmetro
+    - Skip, unit, sort
+        - db.dbname.find({}).skip(2) (ignora os 2 primeiros elementos)
+        - db.dbname.find({}).limit(1) (1 retorna apenas um elemento)
+        - db.dbname.find({}).skip(1).limit(1) (ignora o 1º e pega o da sequência)
+        - db.dbname.find({}).sort({idade: 1}).pretty() (ordena os resultados, 1 crescente e -1 decrescente)
+    - Podemos misturar todos os parâmetros de consulta adicionando ponto e os parâmetros
 
