@@ -1,11 +1,11 @@
 # Curso NodeJS e MongoDB- Curso 1 Inicial
 
 
-## Curso que estou a seguir pelo youtube para conhecer o NodeJS
+## Apontamentos e códigos para consulta do Curso que estou a fazer
 
-Estou a seguir um curso no Youtube de NodeJs e MongoDB, durante o percurso de estudo existe um nivelamento de Javascript, obviamente irei complementando com outras pesquisas e vídeos este meu estudo.
+Estou a seguir um curso no Youtube de NodeJs e MongoDB, durante o percurso de estudo existe um nivelamento de Javascript, obviamente irei complementando com outras pesquisas e vídeos para meu estudo.
 
-Aqui neste Git ficarão os apontamentos e lista de exercícios e tarefas que feitas durante as aulas
+Aqui neste Git ficarão os apontamentos e lista de exercícios e tarefas feitas durante as aulas
 Os códigos estão divididos por Aulas ex.: Aula1, Aula2, ...
 Sempre que houver enunciados, estarão juntamente com o código.
 
@@ -109,4 +109,17 @@ Sempre que houver enunciados, estarão juntamente com o código.
         - db.dbname.find({}).skip(1).limit(1) (ignora o 1º e pega o da sequência)
         - db.dbname.find({}).sort({idade: 1}).pretty() (ordena os resultados, 1 crescente e -1 decrescente)
     - Podemos misturar todos os parâmetros de consulta adicionando ponto e os parâmetros
+- Aula 22 - Update com operadores no MongoDB
+    - Atualizar apenas um campo com updateOne e $set, com $unset podemos limpar um campo específico
+    - db.collection.updateOne(filtro, updateOperator)
+        -  db.dbname.updateOne({_id: ObjectId('66394bd14692bb252346b799')}, {$set: {nome: "NomeModificado"}})
+    - $inc (incremento) e $mul (multiplicador)
+    - Por exemplo quero incrementar a idade em + 1ano ou decrementar com o número negativo: -3
+        - db.dbname.updateOne({_id: ObjectId('66394bd14692bb252346b799')}, {$inc: {idade: 1}})
+    - Se quisermos multiplicar colocamos $mul e valor, para dividir por 3 = $mul e valor 1/3
+        - db.dbname.updateOne({_id: ObjectId('66394bd14692bb252346b799')}, {$inc: {quantidade: 1/3}})
+    - Renomear um campo $rename
+    - Update com insert $upsert e podemos usar com o replaceOne ou updateOne, ele tanto modifica o campo, como também pode inserir, por padrão é false
+        - db.dbname.updateOne({nome: "Fernando"}, {$set: {cidade: "Lisboa"}, {$upsert: true}})
+- 
 
