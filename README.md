@@ -2,6 +2,7 @@
 
 
 ## Apontamentos e códigos para consulta do Curso que estou a fazer
+Data início: 2024/05/04
 
 Estou a seguir um curso no Youtube de NodeJs e MongoDB, durante o percurso de estudo existe um nivelamento de Javascript, obviamente irei complementando com outras pesquisas e vídeos para meu estudo.
 
@@ -45,7 +46,7 @@ Sempre que houver enunciados, estarão juntamente com o código.
     - Web framework
     - npm install -g express-generator (cria alguns templates para facilitar o design)
     - npx express-generator (NodeJS 8.2.0) contorna o erro: mkdirp 1.x
-    - express -e aula12
+    - express -e aula12 (-e indicar vamos usar view engine ejs )
     - cd aula12
     - npm install && npm start
 - Aula 13 - ExpressJS na prática I
@@ -121,5 +122,22 @@ Sempre que houver enunciados, estarão juntamente com o código.
     - Renomear um campo $rename
     - Update com insert $upsert e podemos usar com o replaceOne ou updateOne, ele tanto modifica o campo, como também pode inserir, por padrão é false
         - db.dbname.updateOne({nome: "Fernando"}, {$set: {cidade: "Lisboa"}, {$upsert: true}})
-- 
+- Aula 23 - NodeJS conectando MongoDB
+    - Conectar NodeJS ao MongoDB com o Node Driver
+        - npm install mongodb
+    - Criando a pasta da aula
+        - express -e aula23
+    - Entramos dentro da pasta do projeto criada aula23
+        - cd aula23
+    - Instalar as dependências do projeto
+        - npm install
+    - Instalar as dependências do mongodb
+        - npm install mongodb
+    - Para centralizar todos os acessos a dados dentro da nossa aplicação, criamos um ficheiros.js para isso
+    - Ficheiro criado vamos iniciar nosso MongoDB e apontar o caminho onde vamos salvar nossa db.
+        - mongod --dbpath C:\caminho_db
+    - Iniciar a nossa aplicação com NodeJS e apresentar a mensagem de "Conectado!"
+        - npm start 
+    -
 
+    
