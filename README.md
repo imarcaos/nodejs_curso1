@@ -138,6 +138,6 @@ Sempre que houver enunciados, estarão juntamente com o código.
         - mongod --dbpath C:\caminho_db
     - Iniciar a nossa aplicação com NodeJS e apresentar a mensagem de "Conectado!"
         - npm start 
-    -
+    - Finalizado aqui. 2024/05/09
 
     
