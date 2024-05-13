@@ -5,6 +5,7 @@
 Data início: 2024/05/04
 
 Estou a seguir um curso no Youtube de NodeJs e MongoDB, durante o percurso de estudo existe um nivelamento de Javascript, obviamente irei complementando com outras pesquisas e vídeos para meu estudo.
+Youtube: https://www.youtube.com/playlist?list=PLJ_KhUnlXUPtbtLwaxxUxHqvcNQndmI4B
 
 Aqui neste Git ficarão os apontamentos e lista de exercícios e tarefas feitas durante as aulas
 Os códigos estão divididos por Aulas ex.: Aula1, Aula2, ...
